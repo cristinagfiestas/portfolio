@@ -1,0 +1,144 @@
+body{
+    font-family: 'Raleway';
+    color: rgb(96,96,96);
+}
+
+h2,p{
+    font-weight: 100;
+}
+
+section{
+    padding: 90px 0px;
+}
+
+.sectionprojects{
+    padding: 30px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    border-bottom: 1px solid rgb(230,230,230);
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 9999;
+}
+
+.logo{
+    width: 120px;
+}
+
+.informacion-time, .informacion-team{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.team, .time{
+    width: 5%;
+    margin-right: 2%;
+}
+
+.informacion-time2, .informacion-team2{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.team2, .time2{
+    width: 3.5%;
+    margin-right: 2%;
+}
+
+h1{
+    font-size: 90px;
+    letter-spacing: 5px;
+    border-left: 10px solid rgb(96,96,96);
+    padding-left: 20px;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.hero{
+    padding: 200px 0px;
+    background: url('../img/fondo.jpg') no-repeat center / cover;
+}
+
+.title-border-left{
+    border-left: 1px solid rgb(79, 79, 79);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.intro{
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+}
+
+.projects{
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.readmore {
+    color: rgb(96, 96, 96);
+}
+
+.readmore:hover{
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.AVLA{
+    width: 70%;
+    margin-left: 30%;
+}
+
+.claim{
+    background-color: rgb(96, 96, 96);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+
+.contact{
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contact:hover{
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+.kegoinfo{
+    padding-bottom: 0px 0px;
+}
+
+.line{
+    align-content: center;
+    margin: 0 auto;
+    background-color: rgb(79, 79, 79);
+    width: 75%;
+    height: 1px;
+}
+
+.aboutme{
+    align-content: flex-start;
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
